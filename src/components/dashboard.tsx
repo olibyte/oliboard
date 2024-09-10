@@ -50,7 +50,7 @@ export function Dashboard() {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           <Card className="col-span-2">
             <CardHeader>
-              <CardTitle>Line Chart</CardTitle>
+              <CardTitle>ASX:200</CardTitle>
             </CardHeader>
             <CardContent className="p-0">
               <ResponsiveContainer width="100%" height={300}>
@@ -66,7 +66,7 @@ export function Dashboard() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Pie Chart</CardTitle>
+              <CardTitle>Your Portfolio</CardTitle>
             </CardHeader>
             <CardContent>
               <ResponsiveContainer width="100%" height={300}>
