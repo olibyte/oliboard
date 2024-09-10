@@ -3,11 +3,16 @@ import Link from "next/link";
 
 export function TypographyLead() {
     return (
+
         <div>
-            <h3>AI-powered data insights made easy.</h3>
-        <Link href="/dashboard">
-            <Button>Check out our demo →</Button>
-        </Link>
+<div className="flex items-center">
+              <Link href="/dashboard" className="ml-auto inline-block text-sm underline p-1">
+                <Button>View demo →</Button>
+              </Link>
+              <Link href="https://github.com/olibyte/oliboard" className="ml-auto inline-block text-sm underline">
+                <Button>GitHub repo →</Button>
+              </Link>
+            </div>
         </div>
 )
   }
